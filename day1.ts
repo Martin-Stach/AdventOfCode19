@@ -16,7 +16,7 @@ What is the sum of the fuel requirements for all of the modules on your spacecra
 import fs = require('fs');
 import path = require('path');
 
-export = function day1() {
+export function day1() {
     // First, get the contents of the input file for today's puzzle
     //const inputFilePath = path.join("D:\MXrepos\AdventOfCode\2019", 'day1.txt');
     const inputFileContents = fs.readFileSync("day1.txt", 'utf-8');

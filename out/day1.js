@@ -12,8 +12,9 @@ The Fuel Counter-Upper needs to know the total fuel requirement. To find it, ind
 What is the sum of the fuel requirements for all of the modules on your spacecraft?
 
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
-module.exports = function day1() {
+function day1() {
     // First, get the contents of the input file for today's puzzle
     //const inputFilePath = path.join("D:\MXrepos\AdventOfCode\2019", 'day1.txt');
     var inputFileContents = fs.readFileSync("day1.txt", 'utf-8');
@@ -45,5 +46,6 @@ module.exports = function day1() {
     function calculate(value) {
         return (Math.floor(value / 3) - 2);
     }
-};
+}
+exports.day1 = day1;
 //# sourceMappingURL=day1.js.map

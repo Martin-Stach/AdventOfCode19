@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var day1_1 = require("day1");
+var day2_1 = require("./day2");
 // Start of the Programm
-day1_1.day1.Start();
+// day1();
+day2_1.day2();
 //# sourceMappingURL=main.js.map
